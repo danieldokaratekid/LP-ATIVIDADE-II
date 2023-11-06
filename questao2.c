@@ -1,3 +1,7 @@
+//Exercício 2: 
+\\Você é um desenvolvedor de e-commerce e está trabalhando em um novo sistema de descontos. 
+\\O sistema oferece um desconto de 10% para compras acima de R$ 100,00 se a compra for feita em um dia de semana.
+\\Se a compra for feita em um fim de semana, o desconto será de 15% sobre o valor da compra acima de R$ 100,00.
 #include <stdio.h>
 #include <conio.h>
 #include <locale.h>
