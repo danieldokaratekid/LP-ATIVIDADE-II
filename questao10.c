@@ -1,3 +1,7 @@
+\\Exercício 10: 
+\\Crie um programa que solicite ao usuário dois números e uma operação matemática (+, -). 
+\\Utilize o switch case para realizar a operação desejada e exibir o resultado.
+
 #include <stdio.h>
 #include <conio.h>
 int main()
