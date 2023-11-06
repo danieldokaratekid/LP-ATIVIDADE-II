@@ -4,42 +4,30 @@
 // o clima será ensolarado. Se a temperatura for inferior a 15 graus Celsius, o clima será chuvoso. Se a temperatura estiver entre 15 e 25 graus Celsius, o clima será nublado.
 #include <stdio.h>
 #include <conio.h>
-int main
+#include <locale.h>
+int main()
 {
+    setlocale(LC_ALL, "portuguese");
     int temperatura;
-
-    printf("Digite um valor de temperatura:");
+    printf("Bem-vindo ao jogo\n");
+    printf("Digite um valor de temperatura:\n");
     scanf("%d", &temperatura);
 
-    switch (temperatura)
+    if (temperatura >= 25)
     {
-    case 1:
-        if (temperatura >= 25)
-            ;
-        {
-            printf("O dia será ensolarado\n");
-            break;
-        }
-
-    case 2:
-
-    {
-        else(temperatura <= 15);
+        printf("O dia será ensolarado\n");
     }
+    else if (temperatura < 15)
+    {
         printf("O dia será chuvoso\n");
     }
-
-case 3:
-
-{
-    else(temperatura <= 15 && 25);
-}
+    else if (temperatura >= 15 || temperatura<= 25)
+    {
     printf("O Dia será nublado\n");
 }
-
-default:
-printf("Opção Inválida\n");
+else
 {
-    printf("temperatura:%d", temperatura);
-    return 0;
+    printf("Opção Inválida\n");
+}
+return 0;
 }
