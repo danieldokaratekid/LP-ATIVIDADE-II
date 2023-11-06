@@ -1,3 +1,6 @@
+\\Exercício 5: 
+\\Enquanto você faz parte de uma equipe de desenvolvimento de software, desenvolva um programa que solicite ao usuário que escolha um idioma de preferência (1 - Inglês, 2 - Espanhol, 3 - Francês). 
+\\Com base na escolha do usuário, exiba a mensagem de boas-vindas no idioma selecionado.
 #include <stdio.h>
 #include <conio.h>
 #include<locale.h>
