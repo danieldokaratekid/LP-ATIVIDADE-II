@@ -1,3 +1,6 @@
+//Exercício 6: 
+//Considerando um projeto de e-commerce, implemente um programa que solicite ao usuário o código do produto (1 - Camiseta, 2 - Calça, 3 - Sapato). 
+//Com base na escolha do usuário, exiba a mensagem informando o produto selecionado e seu preço.
 #include <stdio.h>
 #include <conio.h>
 #include<locale.h>
