@@ -1,3 +1,8 @@
+
+\\Exercício 7: 
+\\Em um projeto para um jogo, é necessário cria um menu, crie um programa que exiba um menu com opções (1 - Novo jogo, 2 - Carregar jogo, 3 - Configurações). 
+\\Solicite ao usuário que escolha uma opção e, utilizando o switch case, execute a funcionalidade correspondente à opção escolhida.
+
 #include <stdio.h>
 #include <conio.h>
 int main()
